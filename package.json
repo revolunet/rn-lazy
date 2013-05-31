@@ -1,0 +1,24 @@
+{
+  "name": "rn-lazy",
+  "version": "0.0.1",
+  "description": "Display loaders while you load background images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start --browsers Firefox --single-run"
+  },
+  "author": {
+    "name": "Julien Bouquillon"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "~0.8.5",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.x",
+    "grunt-contrib-uglify": "~0.2.x",
+    "grunt-contrib-jshint": "~0.4.x",
+    "grunt-karma": "~0.4.x",
+    "grunt-conventional-changelog": "0.0.12",
+    "grunt-ngmin": "0.0.2"
+  }
+}
